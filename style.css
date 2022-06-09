@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ropa+Sans&display=swap');
+
+body{
+    text-align: center;
+}
+.container{
+    margin-bottom: 8px;
+    width: 30%;
+    margin:auto;
+    height: 80%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    
+}
+.titulo__logo{
+    font-family: Pacifico;
+    font-size: 44px;
+}
+form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+   
+}
+input{
+    border: 1px solid #dbdbdb;
+    padding: 2px 35px 2px 2px;
+    width: 100% ;
+    height: 30px;
+    margin-bottom: 5px  ;
+    background-color:rgb(252, 244, 244);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    background-color: rgba(137, 43, 226, 0.596);
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #ffff;
+}
+.Entrar__com {
+    text-decoration: none;
+    color:#385185;
+    
+}
+.Esqueceu__senha{
+    text-decoration: none;
+    color:#385185;
+    
+}
+.cadastro{
+    margin-top:8px; 
+    border: 1px solid #dbdbdb;
+}
+.faca__cadastro a{
+    text-decoration: none;
+    color:#385185;
+    
+}
+.Entrar__com img{
+    height: 25px;
+    width: 25px;
+}
+
+.form .Entrar__com{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.divisoria{
+    margin: 8px 0;
+}
+.Esqueceu__senha{
+    padding: 20px;
+}
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baixe{
+    text-align: center;
+    margin: 10px 0;
+}
+.baixe img{
+    height: 40px;
+    width: 130px;
+}
+
+footer{
+    margin-top:30px;
+    text-align: center;
+    padding-top:30px;
+}
+.links a{
+    text-decoration: none;
+    color:gray;
+    margin-right: 5px;
+}
+
+.copy span{
+    color:gray;
+    margin-right: 10px;
+}
